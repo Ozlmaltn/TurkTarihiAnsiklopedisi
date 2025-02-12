@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÜRK TARİHİ ANSİKLOPEDİSİ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+
+    <header>
+        <div class="upperDateAndSocialMedia">
+            <p id="zaman">
+                <script>
+                    function tarihSaat() {
+                        var date = new Date().toLocaleString('tr-TR');
+                        document.getElementById("zaman").innerHTML = date;
+                    }
+
+                    setInterval(tarihSaat, 1000); 
+                </script>
+            </p>
+            <h1 id="baslik">TÜRK TARİHİ ANSİKLOPEDİSİ</h1>
+            <div class="socialMediaIcons">
+                <div class="background-effect">
+                    <button onclick="body.classList.add('black')" class="btn"><img src="index-Image/dark.png"
+                            alt="Karanlık Mod" class="dark"></button>
+                    <button onclick="body.classList.add('red'), body.className = ''" class="btn"><img
+                            src="index-Image/light.png" alt="Aydınlık Mod" class="light"></button>
+                    <button onclick="body.classList.add('gray')" class="btn"><img src="index-Image/auto.png"
+                            alt="Otomatik Mod" class="auto"></button>
+                </div>
+
+                <div class="socialMediaLinks">
+                    <p class="twitter"><i class="fa-brands fa-twitter"></i></p>
+                    <p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+                </div>
+            </div>
+        </div><br>
+
+        <img src="index-Image/logo.jpg" alt="Logo" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Türk Tarihinin Başlangıcı</a></li>
+                <li><a href="ortaCagTurkler.html">Orta Çağ/Türkler</a></li>
+                <li><a href="7.yuzyil.html">7. Yüzyıl</a></li>
+                <li><a href="8.yuzyil.html">8. Yüzyıl</a></li>
+                <li><a href="dokuzyuz.html">9/10. Yüzyıl</a></li>
+                <li><a href="11yy.html">11. Yüzyıl</a></li>
+                <li><a href="12yy.html">12. Yüzyıl</a></li>
+                <li><a href="13yy.html">13. Yüzyıl</a></li>
+                <li><a href="yenicag.html">Yeni Çağ</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>11. Yüzyıl: Selçuklu Yükselişi</h1>
+        <div class="sections-container">
+
+            <section id="nisabur" class="section">
+                <h2> 1038 Nişabur'un Fethi</h2>
+                <img id="res1" src="index-Image/nisabur.jpg" alt="Nişabur Fethi" class="responsive">
+                <h3>Selçukluların İlk Büyük Zaferi</h3>
+                <p>1038 yılında Selçuklu Türkleri, Gaznelilere karşı Nişabur’u ele geçirdi. Bu zafer, Selçuklu
+                    Devleti'nin ilk büyük başarısı olarak tarihe geçti ve Selçukluların bölgedeki etkinliğini artırdı.
+                    Tuğrul Bey, burada kendi adını taşıyan hutbe okutmuş ve bağımsızlığını ilan etmiştir. Nişabur,
+                    Selçukluların siyasi merkezi olarak önem kazanmıştır.</p>
+            </section>
+
+            <section class="section">
+                <h2> 1040 Dandanakan Savaşı</h2>
+                <img id="res1" src="index-Image/dandanakan.jpg" alt="Dandanakan Savaşı" class="responsive">
+                <h3>Selçukluların Bağımsızlık Savaşı</h3>
+                <p>1040 yılında yapılan Dandanakan Savaşı, Selçukluların Gazneli ordusunu yenilgiye uğrattığı ve
+                    bağımsızlığını tam anlamıyla kazandığı dönüm noktasıdır. Bu zaferin ardından Büyük Selçuklu Devleti
+                    resmen kurulmuş ve Tuğrul Bey sultan ilan edilmiştir. Orta Asya’daki Türk siyasi birliği
+                    güçlenirken, Selçuklular hızla batıya doğru genişlemeye başlamıştır.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PuYkQ7xsesI?si=0RA6IuiqJrVaxkHt"
+                    title="Dandanakan Savaşı Belgeseli" frameborder="0" allowfullscreen></iframe>
+            </section>
+
+            <section id="bagdat-seferi" class="section">
+                <h2> 1055 Bağdat Seferi</h2>
+                <h3>Abbasi Halifeliği'nin Korunması</h3>
+                <p>1055 yılında Büyük Selçuklu Sultanı Tuğrul Bey, Abbasi Halifeliği’ni koruma altına almak için
+                    Bağdat’a bir sefer düzenledi. Bu sefer sırasında Şii Büveyhoğulları'nın egemenliğine son verilmiş ve
+                    Selçuklular İslam dünyasında dini liderlik konumuna yükselmiştir. Tuğrul Bey, Abbasi Halifesi Kaim
+                    Bi-Emrillah tarafından “Doğu ve Batının Sultanı” ilan edilmiştir.</p>
+            </section>
+            <div class="sections-container">
+                <section id="malazgirt" class="section">
+                    <h2> 1071 Malazgirt Meydan Muharebesi</h2>
+                    <img id="res1" src="index-Image/malazgirt.jpg" alt="Malazgirt Meydan Muharebesi"
+                        class="responsive-media">
+                    <h3>Anadolu'nun Kapılarının Türklere Açılması</h3>
+                    <p>1071 yılında Büyük Selçuklu Sultanı Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i yenerek
+                        Anadolu’nun kapılarını Türklere açtı. Malazgirt Zaferi, Anadolu’daki Türk-İslam medeniyetinin
+                        temellerinin atıldığı ve Türkler için yeni bir yurt oluşturulduğu önemli bir dönüm noktasıdır.
+                        Bu zafer, İslam dünyasında büyük bir heyecan uyandırmış ve Haçlı Seferleri'nin başlamasına zemin
+                        hazırlamıştır.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/f7u9NmF9Ju8?si=Q2YC3yJp2BsVXWMN"
+                        class="responsive-media" title="Malazgirt Meydan Muharebesi" frameborder="0"
+                        allowfullscreen></iframe>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>İletişim: info@türktarihiansiklopedisi.com</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+
+    <header>
+        <div class="upperDateAndSocialMedia">
+            <p class="zaman">
+                <script>
+                    function tarihSaat() {
+                        var date = new Date().toLocaleString('tr-TR');
+                        document.querySelector(".zaman").innerHTML = date;
+                    }
+                    setInterval(tarihSaat, 1000);
+                </script>
+            </p>
+            <h1 id="baslik">TÜRK TARİHİ ANSİKLOPEDİSİ</h1>
+            <div class="socialMediaIcons">
+                <div class="background-effect">
+                    <button onclick="document.body.className='black'" class="btn">
+                        <img src="index-Image/dark.png" alt="Dark Mode" class="dark">
+                    </button>
+                    <button onclick="document.body.className='red'" class="btn">
+                        <img src="index-Image/light.png" alt="Light Mode" class="light">
+                    </button>
+                    <button onclick="document.body.className='gray'" class="btn">
+                        <img src="index-Image/auto.png" alt="Auto Mode" class="auto">
+                    </button>
+                </div>
+
+                <div class="twitterIcon">
+                    <a href="https://twitter.com" target="_blank" class="twitter"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="instagramIcon">
+                    <a href="https://instagram.com" target="_blank" class="instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <img src="index-Image/logo.jpg" alt="Logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Türk Tarihinin Başlangıcı</a></li>
+                <li><a href="ortaCagTurkler.html">Orta Çağ/Türkler</a></li>
+                <li><a href="7.yuzyil.html">7. Yüzyıl</a></li>
+                <li><a href="8.yuzyil.html">8. Yüzyıl</a></li>
+                <li><a href="dokuzyuz.html">9/10. Yüzyıl</a></li>
+                <li><a href="11yy.html">11. Yüzyıl</a></li>
+                <li><a href="12yy.html">12. Yüzyıl</a></li>
+                <li><a href="13yy.html">13. Yüzyıl</a></li>
+                <li><a href="yenicag.html">Yeni Çağ</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <main>
+            <section>
+                <h2>7. Yüzyılda Türkler</h2>
+                <p>
+                    7. yüzyıl, Türklerin tarih sahnesinde güçlü bir şekilde yer aldığı bir dönemdir. Bu dönemde
+                    Kök-Türkler, Asya'da geniş bir coğrafyaya hükmetmiş, doğuda Çin'den batıda Karadeniz'e kadar olan
+                    bölgelerde etkili olmuşlardır. Kök-Türk Kağanlığı'nın en parlak dönemi Bilge Kağan ve kardeşi Kül
+                    Tigin zamanına denk gelmektedir.
+                </p>
+                <p>
+                    Türkler, bu dönemde konargöçer yaşam tarzını benimsemiş ancak tarımla uğraşarak yerleşik hayata
+                    geçişin temellerini atmışlardır. Gök-Türk alfabesini kullanarak tarihteki ilk Türk yazılı
+                    metinlerini ortaya koymuşlardır. Bu metinlerden Orhun Yazıtları, Türk dili, edebiyatı ve tarihi
+                    açısından çok önemlidir.
+                </p>
+
+                <h3>Sosyal ve Kültürel Yapı</h3>
+                <p>
+                    Türk toplumu "ordu-millet" anlayışına sahipti. Bu, her bireyin doğumdan itibaren askerî disiplinle
+                    yetiştiği bir toplum yapısını ifade eder. Türk ordusu "onlu sistem" adı verilen bir düzenle organize
+                    edilirdi. Bu sistem, savaş sırasında düşmanı yanıltmak ve etkisiz hale getirmek için kullanılan
+                    Turan Taktiği'nin başarısında önemli bir rol oynamıştır.
+                </p>
+                <p>
+                    Dinî inançlarda Gök Tanrı inancı başta gelirken, atalar ruhuna saygı, doğa güçlerine tapınma ve Umay
+                    Ana gibi kavramlar da inanç sisteminin parçalarıydı. Türkler, bu dönemde Budizm, Maniheizm ve
+                    Hristiyanlık gibi farklı dinlerle tanışmış; ancak genelde eski inanç sistemlerini korumuşlardır.
+                </p>
+
+                <h3>Sanat ve Yazı</h3>
+                <p>
+                    7. yüzyılda Türk sanatı, göçebe kültürün etkisiyle taşınabilir eşyalara yoğunlaşmıştır. Halılar,
+                    kilimler ve süs eşyaları dönemin en önemli sanat ürünlerindendir. Gök-Türk alfabesi, Türklerin
+                    yazılı kültüründe bir dönüm noktasıdır. 38 harften oluşan bu alfabe, taş yazıtların (Bengütaşlar)
+                    üzerine işlenmiştir. Orhun Yazıtları, Bilge Kağan, Kül Tigin ve Tonyukuk adına dikilmiş anıtlardır
+                    ve Türklerin tarihine ışık tutmaktadır.
+                </p>
+
+                <!-- Görsel -->
+                <figure>
+                    <img src="https://i.topkapiturkdunyasi.com/2/847/476/storage/files/images/2018/08/30/orhunyazitlari-WBGB.jpg"
+                        alt="Orhun Yazıtları" style="width: 100%; max-width: 600px;">
+                    <figcaption>Orhun Yazıtları, Türklerin yazılı tarihindeki ilk örneklerdendir.</figcaption>
+                </figure>
+
+                <h3>Ekonomik Hayat</h3>
+                <p>
+                    Türklerin ekonomisi hayvancılık, madencilik ve ticarete dayanıyordu. Özellikle İpek Yolu üzerindeki
+                    hâkimiyetleri, onların ticaret yollarından kazanç sağlamasını mümkün kılıyordu. Altın, gümüş ve
+                    bakır gibi madenler işlenerek sanat eserleri ve ticaret malları üretilmiştir.
+                </p>
+            </section>
+        </main>
+
+    </main>
+
+    <footer>
+        <p>İletişim: info@türktarihiansiklopedisi.com</p>
+    </footer>
+
+    <script>
+        // Yorum ekleme işlevi
+        function yorumEkle() {
+            const yorumAlani = document.getElementById("yorum");
+            const yorumMetni = yorumAlani.value.trim();
+            const yorumlarListesi = document.getElementById("yorumlarListesi");
+
+            if (yorumMetni) {
+                const yeniYorum = document.createElement("p");
+                yeniYorum.textContent = yorumMetni;
+                yorumlarListesi.appendChild(yeniYorum);
+                yorumAlani.value = ""; // Yorum alanını temizle
+            } else {
+                alert("Yorum alanı boş olamaz!");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

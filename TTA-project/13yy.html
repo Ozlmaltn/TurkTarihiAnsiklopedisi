@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÜRK TARİHİ ANSİKLOPEDİSİ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+    <header>
+        <div class="upperDateAndSocialMedia">
+            <p id="zaman">
+                <script>
+                    function tarihSaat() {
+                        var date = new Date().toLocaleString('tr-TR');
+                        document.getElementById("zaman").innerHTML = date;
+                    }
+
+                    setInterval(tarihSaat, 1000); 
+                </script>
+            <h1 id="baslik">TÜRK TARİHİ ANSİKLOPEDİSİ</h1>
+            <div class="socialMediaIcons">
+                <!-- Bu kısımda background color değişikliği yapılıyor. -->
+                <div class="background-effect">
+
+                    <button onclick="body.classList.add('black')" class="btn"><img src="index-Image/dark.png" alt=""
+                            class="dark"></button>
+                    <button onclick="body.classList.add('red'), body.className =' '" class="btn"><img
+                            src="index-Image/light.png" alt="" class="light"></button>
+                    <button onclick="body.classList.add('gray')" class="btn"><img src="index-Image/auto.png" alt=""
+                            class="auto"></button>
+
+                </div>
+
+                <div class="twitterIcon">
+                    <p class="twitter"><i class="fa-brands fa-twitter"></i></p>
+                </div>
+                <div class="instagramIcon">
+                    <p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+                </div>
+
+            </div>
+        </div><br>
+
+        <img src="index-Image/logo.jpg" alt="Logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Türk Tarihinin Başlangıcı</a></li>
+                <li><a href="ortaCagTurkler.html">Orta Çağ/Türkler</a></li>
+                <li><a href="7.yuzyil.html">7. Yüzyıl</a></li>
+                <li><a href="8.yuzyil.html">8. Yüzyıl</a></li>
+                <li><a href="dokuzyuz.html">9/10. Yüzyıl</a></li>
+                <li><a href="11yy.html">11. Yüzyıl</a></li>
+                <li><a href="12yy.html">12. Yüzyıl</a></li>
+                <li><a href="13yy.html">13. Yüzyıl</a></li>
+                <li><a href="yenicag.html">Yeni Çağ</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <div class="sections-container">
+
+            <section id="buyuk-hun-devleti" class="section section_index">
+                <h2>Altın Orda Devleti</h2>
+                <img src="index-Image/13_yy/altin_orda_devleti.jpg" alt="Büyük Hun İmparatorluğu" class="responsive"
+                    id="res">
+                <h3>Altın Orda Devleti - Kısa Tarihi</h3>
+                <p>Altın Orda Devleti, 13. yüzyılda Cengiz Han’ın torunu Batu Han tarafından kurulan ve Doğu Avrupa’da
+                    hüküm süren güçlü bir Türk-Moğol devletiydi. Bu devlet, İslamiyet’i benimseyerek kültürel ve ticari
+                    açıdan Altın Çağ’ını yaşadı. Rus knezliklerini etkisi altına alarak bölgede önemli bir siyasi güç
+                    oldu.<br>
+                    <br>Yenilikçi ticaret yolları ve yönetim sistemiyle tanınan Altın Orda, Türk kültürünün bölgeye
+                    yayılmasında önemli bir rol oynadı.
+                </p>
+            </section>
+
+            <section id="kokturk-devleti" class="section">
+                <h2>Anadolu Selçuklu Devleti</h2>
+                <img src="index-Image/13_yy/anadolu_selcuklu_devleti.jpg" alt="Göktürk İmparatorluğu" class="responsive"
+                    id="res">
+                <h3> Anadolu Selçuklu Devleti - Kısa Tarihi</h3>
+                <p>Anadolu Selçuklu Devleti, 13. yüzyılda Anadolu’da Moğol istilalarıyla karşı karşıya kalsa da bölgenin
+                    ekonomik ve kültürel merkezlerinden biri olmayı sürdürdü. 1243’teki Kösedağ Savaşı’nın ardından
+                    İlhanlılara bağımlı hale gelmiştir. Ancak, ticaret yollarını kontrol ederek refahını
+                    korumuştur.<br><br>Konya ve Kayseri gibi şehirler, o dönemde bilimin ve sanatın merkezi haline
+                    gelmiştir.</p>
+            </section>
+
+            <section id="avarlar" class="section">
+                <h2>Harzemşahlar Devleti</h2>
+                <img src="index-Image/13_yy/harzemsahlar_devleti.jpg" alt="Avar Kağanlığı" class="responsive" id="res">
+                <h3>Harzemşahlar Devleti - Kısa Tarihi</h3>
+                <p>Harzemşahlar Devleti, 13. yüzyılın başlarında Orta Asya’da hüküm süren bir Türk-İslam devletiydi.
+                    Sultan Alaaddin Muhammed Harzemşah liderliğinde güçlenen bu devlet, Cengiz Han’ın Moğol ordularıyla
+                    yapılan çatışmalarda büyük bir mücadele verdi.<br><br> Harzemşahlar, Moğol istilaları nedeniyle
+                    yıkılmış olsa da, Türk-İslam kültürünün korunması için önemli bir miras bırakmıştır.</p>
+            </section>
+        </div>
+        <div class="sections-container">
+            <section class="section" id="res2">
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/Oc9fZUXFRAk?si=CNJXeORDxOAgjTpW"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+        </div>
+        <div class="sections-container">
+            <section id="uygurlar" class="section">
+                <h2>Memlükler</h2>
+                <img src="index-Image/13_yy/memlukler.jpg" alt="Uygur Kağanlığı" class="responsive" id="res1">
+                <h3>Memlükler - Kısa Tarihi</h3>
+                <p>Memlükler, 13. yüzyılda Mısır’da kurulan ve Eyyubilerden bağımsız hale gelen bir Türk devleti olarak
+                    tanınır. 1260 yılında Ayn Calut Savaşı’nda Moğolları yenerek İslam dünyasını büyük bir tehditten
+                    kurtarmışlardır. <br><br> Mısır ve Suriye bölgelerinde Türk askeri kültürünü yaşatmış, İslam
+                    dünyasında önemli bir siyasi güç olmuşlardır.</p>
+
+            </section>
+
+            <section id="karahanli" class="section">
+                <h2>Eyyubiler ve Türk Etkisi</h2>
+                <img src="index-Image/13_yy/eyyubiler.jpg" alt="Karahanlı Devleti" class="responsive" id="res1">
+                <h3>Eyyubiler ve Türk Etkisi - Kısa Tarihi</h3>
+                <p>Eyyubi Devleti, 13. yüzyılda Salahaddin Eyyubi’nin mirası olarak Mısır ve çevresinde hüküm sürüyordu.
+                    Türk askeri gelenekleri, Eyyubilerde önemli bir yer tutmuş, Memlükler gibi devletlerin temelini
+                    oluşturmuştur. <br><br> Bu dönem, Haçlılarla yapılan mücadelelerle dikkat çekerken, İslam dünyasının
+                    birliği açısından da kritik bir öneme sahiptir.</p>
+
+            </section>
+
+
+        </div>
+
+
+        <div class="sections-container">
+            <section id="gazneliler" class="section">
+                <h2>Kırım Hanlığı’nın Başlangıcı</h2>
+                <img src="index-Image/13_yy/kirim_hanligi.png" alt="Osmanlı İmparatorluğu" class="responsive" id="res">
+                <h3>Kırım Hanlığı’nın Başlangıcı - Kısa Tarihi</h3>
+                <p>13. yüzyılda Kırım bölgesinde Türk boyları Altın Orda’nın etkisi altına girmiş ve bölge, Türk-Moğol
+                    kültürünün birleştiği bir merkez haline gelmiştir. Bu yüzyıl, Kırım Hanlığı’nın temellerinin
+                    atıldığı bir dönem olarak kabul edilir.<br><br> Kırım, Karadeniz ticaretinin merkezi olmuş ve
+                    bölgesel bir güç olarak şekillenmiştir.</p>
+            </section>
+
+            <section id="selcuklu" class="section">
+                <h2>Kubilay Hanlığı ve Türkler</h2>
+                <img src="index-Image/13_yy/kubilay_hanligi_mogollar.jpg" alt="Cumhuriyet Dönemi" class="responsive"
+                    id="res">
+                <h3>Kubilay Hanlığı ve Türkler - Kısa Tarihi</h3>
+                <p>Kubilay Hanlığı, 13. yüzyılda Moğol İmparatorluğu’nun doğu kanadını temsil etmiş, Türk boylarını da
+                    içine alan geniş bir coğrafyaya hükmetmiştir. Türk savaşçılar ve yöneticiler, Kubilay Hanlığı’nın
+                    başarısında önemli bir rol oynamıştır. <br><br>Bu hanlık, Türk-Moğol kültürünün etkileşiminde bir
+                    köprü olmuştur.</p>
+            </section>
+
+            <section id="osmanli" class="section">
+                <h2>Moğolların Anadolu’daki Etkisi</h2>
+                <img src="index-Image/13_yy/mogol_imparatorlugu.jpg" alt="Türk Kültürü" class="responsive" id="res">
+                <h3>Moğolların Anadolu’daki Etkisi</h3>
+                <p>
+                    13. yüzyılda Anadolu, Moğol istilalarıyla yüzleşmiş ve özellikle Kösedağ Savaşı’ndan sonra Anadolu
+                    Selçuklu Devleti, İlhanlılara bağlı hale gelmiştir. Bu süreçte Moğol yönetimi, Anadolu’nun siyasi
+                    yapısını etkilemiş ancak bölgedeki Türk kültürünün gelişimini tamamen durduramamıştır. <br><br>
+                    Moğol etkisi, ticaret yollarının korunması ve yeni kültürel etkileşimlerin ortaya çıkmasıyla bölgede
+                    iz bırakmıştır.
+                </p>
+            </section>
+        </div>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>İletişim: info@türktarihiansiklopedisi.com</p>
+    </footer>
+</body>
+
+</html>

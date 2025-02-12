@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÜRK TARİHİ ANSİKLOPEDİSİ</title>
+    <link rel="stylesheet" href="style9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+    <header>
+        <div class="upperDateAndSocialMedia">
+            <p class="zaman">
+                <script>
+                    function tarihSaat() {
+                        var date = new Date().toLocaleString('tr-TR');
+                        document.getElementsByClassName("zaman")[0].innerHTML = date;
+                    }
+
+                    setInterval(tarihSaat, 1000); 
+                </script>
+            <h1 id="baslik">TÜRK TARİHİ ANSİKLOPEDİSİ</h1>
+            <div class="socialMediaIcons">
+                <!-- Bu kısımda background color değişikliği yapılıyor. -->
+                <div class="background-effect">
+
+                    <button onclick="body.classList.add('black')" class="btn"><img src="index-Image/dark.png" alt=""
+                            class="dark"></button>
+                    <button onclick="body.classList.add('red'), body.className =' '" class="btn"><img
+                            src="index-Image/light.png" alt="" class="light"></button>
+                    <button onclick="body.classList.add('gray')" class="btn"><img src="index-Image/auto.png" alt=""
+                            class="auto"></button>
+
+                </div>
+
+                <div class="twitterIcon">
+                    <p class="twitter"><i class="fa-brands fa-twitter"></i></p>
+                </div>
+                <div class="instagramIcon">
+                    <p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+                </div>
+
+            </div>
+        </div><br>
+
+        <img src="index-Image/logo.jpg" alt="Logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Türk Tarihinin Başlangıcı</a></li>
+                <li><a href="ortaCagTurkler.html">Orta Çağ/Türkler</a></li>
+                <li><a href="7.yuzyil.html">7. Yüzyıl</a></li>
+                <li><a href="8.yuzyil.html">8. Yüzyıl</a></li>
+                <li><a href="dokuzyuz.html">9/10. Yüzyıl</a></li>
+                <li><a href="11yy.html">11. Yüzyıl</a></li>
+                <li><a href="12yy.html">12. Yüzyıl</a></li>
+                <li><a href="13yy.html">13. Yüzyıl</a></li>
+                <li><a href="yenicag.html">Yeni Çağ</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- İçerik Konteyneri -->
+    <div class="container-3">
+        <!-- Başlık ve Açıklama -->
+        <h2>Dokuzuncu Yüzyıl'a Yolculuk</h2>
+        <p>Bu site sizi, Orta Çağ’ın görkemli dünyasına götürerek 9. yüzyıl atmosferini hissetmenizi sağlıyor.</p>
+        <p>Devamı...<a href="9yy.html">Dokuzuncu Yüzyıl</a></p>
+        <!-- Görsel Alanı -->
+        <div class="image-container-1">
+            <img src="index-Image/Türk_Tarihi_900yılında.jpg" alt="9. yüzyıl">
+        </div>
+
+        <!-- Video Alanı -->
+        <div class="video-container-2">
+            <video controls>
+                <source src="index-Image/Orta Çağ a Genel Bakış (Sanat ve Sosyal Bilimler) (Dünya Tarihi).mp4"
+                    type="video/mp4">
+
+            </video>
+        </div>
+
+        <!-- Ek Metin ve İçerik -->
+        <p>9. yüzyıl, hem İslam dünyasında hem de Avrupa'da bilim, sanat ve mimari açısından büyük ilerlemelerin
+            yaşandığı bir dönemdi. O dönemin yapıları, sanatı ve müziği, bugüne ilham vermeye devam ediyor.</p>
+    </div>
+
+
+
+    <footer>
+        <p>İletişim: info@türktarihiansiklopedisi.com</p>
+    </footer>
+</body>
+
+</html>

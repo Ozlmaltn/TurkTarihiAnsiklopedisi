@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÜRK TARİHİ ANSİKLOPEDİSİ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+    <header>
+        <div class="upperDateAndSocialMedia">
+            <p id="zaman">
+                <script>
+                    function tarihSaat() {
+                        var date = new Date().toLocaleString('tr-TR');
+                        document.getElementById("zaman").innerHTML = date;
+                    }
+
+                    setInterval(tarihSaat, 1000); 
+                </script>
+            <h1 id="baslik">TÜRK TARİHİ ANSİKLOPEDİSİ</h1>
+            <div class="socialMediaIcons">
+                <!-- Bu kısımda background color değişikliği yapılıyor. -->
+                <div class="background-effect">
+
+                    <button onclick="body.classList.add('black')" class="btn"><img src="index-Image/dark.png" alt=""
+                            class="dark"></button>
+                    <button onclick="body.classList.add('red'), body.className =' '" class="btn"><img
+                            src="index-Image/light.png" alt="" class="light"></button>
+                    <button onclick="body.classList.add('gray')" class="btn"><img src="index-Image/auto.png" alt=""
+                            class="auto"></button>
+
+                </div>
+
+                <div class="twitterIcon">
+                    <p class="twitter"><i class="fa-brands fa-twitter"></i></p>
+                </div>
+                <div class="instagramIcon">
+                    <p class="instagram"><i class="fa-brands fa-instagram"></i></p>
+                </div>
+
+            </div>
+        </div><br>
+
+        <img src="index-Image/logo.jpg" alt="Logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Türk Tarihinin Başlangıcı</a></li>
+                <li><a href="ortaCagTurkler.html">Orta Çağ/Türkler</a></li>
+                <li><a href="7.yuzyil.html">7. Yüzyıl</a></li>
+                <li><a href="8.yuzyil.html">8. Yüzyıl</a></li>
+                <li><a href="dokuzyuz.html">9/10. Yüzyıl</a></li>
+                <li><a href="11yy.html">11. Yüzyıl</a></li>
+                <li><a href="12yy.html">12. Yüzyıl</a></li>
+                <li><a href="13yy.html">13. Yüzyıl</a></li>
+                <li><a href="yenicag.html">Yeni Çağ</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <main>
+            <h1>12. Yüzyıl: Türklerin Anadolu'daki Güçlenmesi</h1>
+            <div class="sections-container">
+
+                <section id="selcuklu-bagdat" class="section">
+                    <h2> 1055: Selçuklu’nun Bağdat Seferi</h2>
+                    <h3>Abbasi Halifeliği'ne Destek</h3>
+                    <p>1055 yılında, Selçuklu Sultanı Tuğrul Bey Bağdat Seferi’ni gerçekleştirerek Abbasi Halifeliği'ni
+                        koruma altına aldı. Bu zafer, Selçukluların İslam dünyasında dini liderlik pozisyonuna
+                        yükselmesine ve Abbasi Halifesi tarafından “Doğu ve Batının Sultanı” olarak ilan edilmelerine
+                        yol açtı.</p>
+                </section>
+
+                <section id="danişmentliler" class="section">
+                    <h2> 1100'ler: Danişmentliler ve Bizans'a Karşı Mücadeleler</h2>
+                    <img id="res1" src="index-Image/danismet.jpg" alt="Danişmentliler Bizans'a Karşı"
+                        class="responsive">
+                    <h3>Anadolu'nun Türkleşmesi İçin İlk Adımlar</h3>
+                    <p>Danişmentliler, 11. ve 12. yüzyıllarda Bizans'a karşı birçok zafer kazanarak Anadolu'da Türk
+                        hakimiyetini pekiştirdi. 12. yüzyıl başlarında Amasya, Tokat gibi şehirleri alarak Bizans’ın
+                        Anadolu'daki egemenliğini ciddi şekilde sarsmışlardır. Bu fetihler, Anadolu'daki Türk varlığının
+                        güçlenmesini sağlamıştır.</p>
+                </section>
+
+                <section class="section">
+                    <h2> 1086: Selçukluların Anadolu’daki Genişleme Hareketi</h2>
+                    <img id="res1" src="index-Image/aselcuklu.jpg" alt="Selçukluların Genişlemesi" class="responsive">
+                    <h3>Konya'nın Başkent Yapılması ve Genişleme</h3>
+                    <p>Selçuklu Sultanı I. Kılıç Arslan, 12. yüzyılın başında Anadolu’daki Bizans topraklarına yönelik
+                        fetihlerini sürdürdü. 1086 yılında Konya'nın başkent yapılması, Selçuklu Devleti'nin Anadolu'da
+                        kökleşmesini sağlamış ve önemli bir kültürel ve siyasi merkez haline gelmiştir.</p>
+                </section>
+
+                <section id="bizans" class="section">
+                    <h2> 1116: Bizans’a Karşı Selçuklu Akınları</h2>
+                    <h3>İznik ve Çevresinin Alınması</h3>
+                    <p>12. yüzyıl boyunca Selçuklu Devleti, Bizans’ın Anadolu’daki son topraklarını almaya devam etti.
+                        Özellikle 1116’da İznik’in Selçuklular tarafından ele geçirilmesi, Bizans’ın Anadolu’daki
+                        hakimiyetini sona erdirmiştir. Bu zafer, Türklerin Anadolu’daki yavaş ama kararlı ilerleyişinin
+                        önemli bir simgesidir.</p>
+                </section>
+
+
+                <section id="venedik" class="section">
+                    <h2> 12. Yüzyıl: Venedik ve Ceneviz’e Karşı Selçuklu Mücadelesi</h2>
+                    <img id="res1" src="index-Image/venedik.jpg" alt="Venedik ve Ceneviz Savaşları" class="responsive">
+                    <h3>Selçuklu Deniz Gücünün Artması</h3>
+                    <p>Selçuklu Devleti, 12. yüzyılda Anadolu kıyılarında deniz egemenliğini artırmak amacıyla Venedik
+                        ve Ceneviz'e karşı çeşitli deniz savaşlarına girmiştir. Bu süreç, Türklerin denizcilik gücünü
+                        artırma çabalarını ve Anadolu'daki ticaret yolları üzerindeki kontrolünü sağlamlaştırmıştır.</p>
+                </section>
+                <section id="miryokefalon" class="section">
+                    <h2>• 1176: Miryokefalon Muharebesi</h2>
+                    <h3>Bizans’a Karşı Son Büyük Zafer</h3>
+                    <p>1176'da yapılan Miryokefalon Muharebesi, Selçuklu Sultanı II. Kılıç Arslan’ın Bizans İmparatoru
+                        III. Manuil Komnenos’a karşı kazandığı önemli bir zaferdir. Bu zafer, Selçukluların Anadolu’daki
+                        egemenliğini pekiştirmiş ve Bizans’ın bölgedeki topraklarını kaybetmesine yol açmıştır.
+                        Miryokefalon, Selçuklular için Bizans'a karşı önemli bir askeri zafer olarak kaydedilmiştir.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dLR6es_Sir0?si=ZWAWVSbLm-Og-jQS"
+                        class="responsive-media" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
+            </div>
+        </main>
+
+
+        <footer>
+            <p>İletişim: info@türktarihiansiklopedisi.com</p>
+        </footer>
+</body>
+
+</html>

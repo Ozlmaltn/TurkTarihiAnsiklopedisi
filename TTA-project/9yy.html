@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÜRK TARİHİ ANSİKLOPEDİSİ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+
+    <header>
+        <div class="upperDateAndSocialMedia">
+            <p class="zaman">
+                <script>
+                    function tarihSaat() {
+                        var date = new Date().toLocaleString('tr-TR');
+                        document.querySelector(".zaman").innerHTML = date;
+                    }
+                    setInterval(tarihSaat, 1000);
+                </script>
+            </p>
+            <h1 id="baslik">TÜRK TARİHİ ANSİKLOPEDİSİ</h1>
+            <div class="socialMediaIcons">
+                <div class="background-effect">
+                    <button onclick="document.body.className='black'" class="btn">
+                        <img src="index-Image/dark.png" alt="Dark Mode" class="dark">
+                    </button>
+                    <button onclick="document.body.className='red'" class="btn">
+                        <img src="index-Image/light.png" alt="Light Mode" class="light">
+                    </button>
+                    <button onclick="document.body.className='gray'" class="btn">
+                        <img src="index-Image/auto.png" alt="Auto Mode" class="auto">
+                    </button>
+                </div>
+
+                <div class="twitterIcon">
+                    <a href="https://twitter.com" target="_blank" class="twitter"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="instagramIcon">
+                    <a href="https://instagram.com" target="_blank" class="instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <img src="index-Image/logo.jpg" alt="Logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Türk Tarihinin Başlangıcı</a></li>
+                <li><a href="ortaCagTurkler.html">Orta Çağ/Türkler</a></li>
+                <li><a href="7.yuzyil.html">7. Yüzyıl</a></li>
+                <li><a href="8.yuzyil.html">8. Yüzyıl</a></li>
+                <li><a href="dokuzyuz.html">9/10. Yüzyıl</a></li>
+                <li><a href="11yy.html">11. Yüzyıl</a></li>
+                <li><a href="12yy.html">12. Yüzyıl</a></li>
+                <li><a href="13yy.html">13. Yüzyıl</a></li>
+                <li><a href="yenicag.html">Yeni Çağ</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sections-container">
+            <section id="ortasya" class="section section_ic_sayfa_main_field">
+                <h2>Orta Asya</h2>
+                <h6>Yazar:<br>Tarih:</h6>
+                <img src="index-Image/9yyTürk_Tarihi_800yılı.jpg" alt="Uygurlar" class="responsive">
+                <p>820: Uygurların Tibetlileri püskürtmesi<br>
+                    832: Uygur Kağanlığı'nın kargaşaya sürüklenmesi<br>
+                    840: Kırgızların saldırısı sonucu Uygur Kağanlığı'nın yıkılması...</p><br><br>
+                <img src="index-Image/Uyghur_Khaganate.png" alt="Uygurlar" class="responsive"><br><br>
+                <a href="https://tr.wikipedia.org/wiki/T%C3%BCrk_tarihi" target="_blank">Türk Tarihi hakkında daha fazla
+                    bilgi için buraya tıklayın</a>
+            </section>
+
+            <aside>
+                <section id="dgavrupa" class="section section_ic_sayfa_main_field">
+                    <h2>Doğu Avrupa</h2>
+                    <h6>Yazar:<br>Tarih:</h6>
+                    <img src="index-Image/570px-Hazar_Hanlığı_820.jpg" alt="Uygurlar" class="responsive">
+                    <p>804: Frankların darbeleri sonucunda dağılan Avar Kağanlığı'nın Tuna Bulgar Devleti tarafından
+                        yıkılması...</p>
+                </section>
+
+                <section id="önasya" class="section section_kucuk">
+                    <h2>Ön Asya ve Afrika</h2>
+                    <img src="index-Image/Fragmentation_of_the_Abbasid_Caliphate.jpg" alt="Avar Kağanlığı"
+                        class="responsive">
+                    <p>833-842: Halife Mutasım döneminde Türk kölemen askerlerin Abbasi sarayında etkilerinin artması...
+                    </p>
+                </section>
+
+                <section id="oyun" class="section oyun1">
+                    <a href="tarihoyun.html" target="_blank">Hadi Biraz Kendimizi Deneyelim Nedersin ?!..</a>
+                </section>
+            </aside>
+        </div>
+
+        <div class="sections-container">
+            <section class="section section_yorum">
+                <h4><label for="yorum">Yorum Yap</label></h4>
+                <textarea id="yorum" class="yorum" placeholder="Yorumunuzu buraya yazın..."></textarea><br>
+                <button id="gonder" onclick="yorumEkle()">Gönder</button>
+                <div id="yorumlarListesi"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>İletişim: info@türktarihiansiklopedisi.com</p>
+    </footer>
+
+    <script>
+        // Yorum ekleme işlevi
+        function yorumEkle() {
+            const yorumAlani = document.getElementById("yorum");
+            const yorumMetni = yorumAlani.value.trim();
+            const yorumlarListesi = document.getElementById("yorumlarListesi");
+
+            if (yorumMetni) {
+                const yeniYorum = document.createElement("p");
+                yeniYorum.textContent = yorumMetni;
+                yorumlarListesi.appendChild(yeniYorum);
+                yorumAlani.value = ""; // Yorum alanını temizle
+            } else {
+                alert("Yorum alanı boş olamaz!");
+            }
+        }
+    </script>
+</body>
+
+</html>
